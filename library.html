@@ -45,17 +45,80 @@
 	color: #772323;
 }
 
+#layer3 {
+	background-color: #CCCCCC;
+}
+.auto-style6 {
+	text-align: center;
+	font-size: x-large;
+	font-family: "Engravers MT";
+}
+
 </style>
 <bgsound loop="-1" src="media/d2.mid" />
 <link href="style/sidebar.css" rel="stylesheet" type="text/css" />
 <link href="style/header.css" rel="stylesheet" type="text/css" />
 <link href="style/Untitled_1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body style="background-image: url('images/1050.png')">
+<body style="background-image: url('images/1050.png')" onload="FP_preloadImgs(/*url*/'images/buttonE.jpg',/*url*/'images/buttonF.jpg',/*url*/'images/button11.jpg',/*url*/'images/button12.jpg',/*url*/'images/button17.jpg',/*url*/'images/button18.jpg',/*url*/'images/button1A.jpg',/*url*/'images/button1B.jpg',/*url*/'images/button1D.jpg',/*url*/'images/button1E.jpg',/*url*/'images/button20.jpg',/*url*/'images/button21.jpg',/*url*/'images/button23.jpg',/*url*/'images/button24.jpg',/*url*/'images/button26.jpg',/*url*/'images/button27.jpg',/*url*/'images/button29.jpg',/*url*/'images/button2A.jpg',/*url*/'images/button2C.jpg',/*url*/'images/button2D.jpg',/*url*/'images/button2F.jpg',/*url*/'images/button30.jpg',/*url*/'images/button32.jpg',/*url*/'images/button33.jpg')">
 
 
 <div id="sidebar" class="auto-style1" style="width: 288px; height: 518px">
+	<div id="layer3" class="auto-style6" style="position: absolute; left: 305px; top: 119px; width: 567px; height: 232px; z-index: 3">
+		حلول الكتب المدرسية <br />
+		<a href="حلول%20كتب%20عاشر/رياضيات.pdf">
+		<img id="img1" alt="الرياضيات" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/buttonF.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/buttonD.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/buttonE.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/buttonE.jpg')" src="images/buttonD.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="الرياضيات" --></a>
+		<a href="حلول%20كتب%20عاشر/كراسة%20رياضيات.pdf">
+		<img id="img2" alt="الرياضيات كراسة" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/button12.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/button10.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'images/button11.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'images/button11.jpg')" src="images/button10.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="الرياضيات كراسة" --></a>
+		<a href="حلول%20كتب%20عاشر/البلاغة.pdf">
+		<img id="img3" alt="بلاغة" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'images/button18.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'images/button16.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'images/button17.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'images/button17.jpg')" src="images/button16.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="بلاغة" --></a>
+		<a href="حلول%20كتب%20عاشر/النحو.pdf">
+		<img id="img4" alt="النحو" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'images/button1B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'images/button19.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'images/button1A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'images/button1A.jpg')" src="images/button19.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="النحو" --></a>
+		<br />
+		<br />
+		<a href="حلول%20كتب%20عاشر/اسلامية.pdf">
+		<img id="img5" alt="اسلامية" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'images/button1E.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'images/button1C.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'images/button1D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'images/button1D.jpg')" src="images/button1C.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="اسلامية" --></a>
+		<a href="حلول%20كتب%20عاشر/القران.pdf">
+		<img id="img6" alt="قرآن " height="20" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'images/button21.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'images/button1F.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'images/button20.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'images/button20.jpg')" src="images/button1F.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="قرآن " --></a>
+		<a href="حلول%20كتب%20عاشر/تاريخ.pdf">
+		<img id="img7" alt="تاريخ" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'images/button24.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'images/button22.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'images/button23.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'images/button23.jpg')" src="images/button22.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="تاريخ" --></a>
+		<a href="حلول%20كتب%20عاشر/الفيزياء.pdf">
+		<img id="img8" alt="الفيزياء" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'images/button27.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'images/button25.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'images/button26.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'images/button26.jpg')" src="images/button25.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="الفيزياء" --></a><br />
+		<br />
+		<a href="حلول%20كتب%20عاشر/احياء.pdf">
+		<img id="img9" alt="الأحياء" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'images/button2A.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'images/button28.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'images/button29.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'images/button29.jpg')" src="images/button28.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="الأحياء" --></a>
+		<a href="حلول%20كتب%20عاشر/احياء%20كراسة.pdf">
+		<img id="img10" alt="الأحياء كراسة" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'images/button2D.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'images/button2B.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'images/button2C.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'images/button2C.jpg')" src="images/button2B.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="الأحياء كراسة" --></a>
+		<a href="حلول%20كتب%20عاشر/english%20s.b.pdf">
+		<img id="img11" alt="english s.b" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img11',/*url*/'images/button30.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img11',/*url*/'images/button2E.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img11',/*url*/'images/button2F.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img11',/*url*/'images/button2F.jpg')" src="images/button2E.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="english s.b" --></a>
+		<a href="حلول%20كتب%20عاشر/english%20w.b.pdf">
+		<img id="img12" alt="english w.b" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img12',/*url*/'images/button33.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img12',/*url*/'images/button31.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img12',/*url*/'images/button32.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img12',/*url*/'images/button32.jpg')" src="images/button31.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Border Bottom 1" fp-title="english w.b" --></a><br />
+	</div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
 &nbsp;
 	<ul>
